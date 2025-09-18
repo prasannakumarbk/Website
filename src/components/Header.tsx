@@ -22,7 +22,7 @@ export const Header: React.FC<HeaderProps> = ({ onCartOpen, onSearch, searchQuer
           <div className="flex flex-col items-center flex-shrink-0">
             <a href="/" className="flex flex-col items-center">
               <img src={logo} alt="S-Yunova Logo" className="h-10 w-auto" />
-              <span className="text-blue-600 font-bold text-sm mt-1">S-Yunova</span>
+              <span className="text-blue-600 font-bold text-sm mt-1">S-yunova</span>
             </a>
           </div>
 
