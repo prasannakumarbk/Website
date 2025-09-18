@@ -8,7 +8,7 @@ export const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="col-span-1 md:col-span-2">
-            <h3 className="text-2xl font-bold text-blue-400 mb-4">S-Yunova</h3>
+            <h3 className="text-2xl font-bold text-blue-400 mb-4">S-Yunova Private Limited</h3>
             <p className="text-gray-300 mb-6 leading-relaxed">
               Your trusted partner for high-quality electronics and semiconductor components. 
               We provide cutting-edge technology solutions for professionals, hobbyists, and enterprises.
@@ -51,7 +51,7 @@ export const Footer: React.FC = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-blue-400" />
-                <span className="text-gray-300">+918660335845</span>
+                <span className="text-gray-300">+91 86603 35845</span>
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="h-10 w-10 text-blue-400" />
