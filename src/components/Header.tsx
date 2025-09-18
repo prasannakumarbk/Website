@@ -17,14 +17,13 @@ export const Header: React.FC<HeaderProps> = ({ onCartOpen, onSearch, searchQuer
     <header className="bg-white shadow-lg sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          
-          {/* Logo */}
-          <div className="flex items-center">
-            <div className="flex-shrink-0">
-              <a href="/">
-                <img src={logo} alt="S-Yunova Logo" className="h-10 w-auto" />
-              </a>
-            </div>
+
+          {/* Logo with company name */}
+          <div className="flex flex-col items-center flex-shrink-0">
+            <a href="/" className="flex flex-col items-center">
+              <img src={logo} alt="S-Yunova Logo" className="h-10 w-auto" />
+              <span className="text-blue-600 font-bold text-sm mt-1">S-Yunova</span>
+            </a>
           </div>
 
           {/* Desktop Navigation */}
